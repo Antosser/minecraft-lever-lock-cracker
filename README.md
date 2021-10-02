@@ -7,7 +7,7 @@ A python programm to bruteforce minectaft leaver locks
 3. Open Minecraft
 4. Look on the first leaver
 5. Press Insert
-6. Further only use arrows to look around as python cannot capture mouse moves in games
+6. Further only use arrows to look around as python cannot capture mouse moves in game
 7. Look on the second leaver (using arrows) and press Insert
 8. Do 7. for all other leavers
 9. Press Alt

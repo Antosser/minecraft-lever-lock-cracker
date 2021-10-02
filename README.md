@@ -20,3 +20,5 @@ If the programm hasn't started clicking the leavers after step 9., use the follo
 - Check if the "Raw Input" option is set to false. This setting is under Options/Conrols/Mouse Settings/Raw Input
 
 If the programm started clicking on the wrong points, adjust you sensitivity. The programm simply can't reach one leaver with only one mouse move
+
+6d80ccd

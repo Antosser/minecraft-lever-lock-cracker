@@ -24,7 +24,7 @@ def click():
 def move(x, y):
 	    win32api.SetCursorPos((x,y))
 
-speed = float(input('Delay: '))
+delay = float(input('Delay: '))
 
 x = 0
 y = 0
@@ -50,7 +50,7 @@ while True:
 		positions.append((x, y))
 	if not keyboard.is_pressed('insert') and insertpressed:
 		insertpressed = False
-	if keyboard.is_pressed('ctrl'):
+	if keyboard.is_pressed('alt'):
 		break
 if len(positions) == 0:
 	exit()
@@ -78,11 +78,11 @@ for i in result:
 	end[int(i)] += 1
 	if keyboard.is_pressed('insert'):
 		exit()
-	sleep(speed - .05)
+	sleep(delay - .05)
 for i in range(len(end)):
 	if end[i] % 2 == 1:
 		move(pyautogui.position().x + positions[i][0] - x, pyautogui.position().y + positions[i][1] - y)
 		x = positions[i][0]
 		y = positions[i][1]
 		click()
-		sleep(speed - .05)
+		sleep(delay - .05)

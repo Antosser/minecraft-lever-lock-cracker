@@ -45,10 +45,10 @@ while True:
 	if keyboard.is_pressed('up'):
 		y -= 20
 		move(pyautogui.position().x, pyautogui.position().y - 20)
-	if keyboard.is_pressed('insert') and not insertpressed:
+	if keyboard.is_pressed('ctrl') and not insertpressed:
 		insertpressed = True
 		positions.append((x, y))
-	if not keyboard.is_pressed('insert') and insertpressed:
+	if not keyboard.is_pressed('ctrl') and insertpressed:
 		insertpressed = False
 	if keyboard.is_pressed('alt'):
 		break

@@ -3,7 +3,7 @@ A python programm to bruteforce minectaft leaver locks
 
 ## Usage
 1. Run main.py (packages will be installed automatically)
-2. Enter the delay wetween the clicks in seconds (Recomended: 0.1 for singleplayer, 0.2 - 0.3 for servers)
+2. Enter the delay between the clicks in seconds (Recomended: 0.1 for singleplayer, 0.2 - 0.3 for servers)
 3. Open Minecraft
 4. Look on the first leaver
 5. Press Insert

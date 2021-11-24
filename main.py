@@ -4,17 +4,17 @@ from time import sleep
 try:
 	import win32api, win32con
 except:
-	system('pip install pywin32')
+	system('python -m pip install pywin32')
 	import win32api, win32con
 try:
 	import keyboard
 except:
-	system('pip install keyboard')
+	system('python -m pip install keyboard')
 	import keyboard
 try:
 	import pyautogui
 except:
-	system('pip install pyautogui')
+	system('python -m pip install pyautogui')
 	import pyautogui
 
 

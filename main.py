@@ -1,22 +1,9 @@
 from threading import Thread
 from os import system
 from time import sleep
-try:
-	import win32api, win32con
-except:
-	system('pip install pywin32')
-	import win32api, win32con
-try:
-	import keyboard
-except:
-	system('pip install keyboard')
-	import keyboard
-try:
-	import pyautogui
-except:
-	system('pip install pyautogui')
-	import pyautogui
-
+import win32api, win32con
+import keyboard
+import pyautogui
 
 def click():
 	win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN,x,y,0,0)
